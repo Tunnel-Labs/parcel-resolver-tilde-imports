@@ -1,5 +1,10 @@
 const { Resolver } = require('@parcel/plugin');
-const { expandTildeImport } = require('tilde-imports');
+const { createTildeImportExpander } = require('tilde-imports');
+const { getMonorepoDirpath } = require('get-monorepo-root');
+
+const expandTildeImport = createTildeImportExpander({
+	monorepoDirpath: getMonorepoDirpath(__dirname)
+});
 
 module.exports = new Resolver({
 	resolve({ specifier, dependency }) {

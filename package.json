@@ -1,18 +1,19 @@
 {
-  "name": "parcel-resolver-tilde-imports",
-  "version": "1.0.2",
-  "type": "commonjs",
-  "exports": {
-    ".": {
-      "types": "./src/index.d.ts",
-      "default": "./src/index.js"
-    }
-  },
-  "engines": {
-    "parcel": "^2.9.3"
-  },
-  "dependencies": {
-    "tilde-imports": "^1.0.0",
-    "@parcel/plugin": "^2.9.3"
-  }
+	"name": "parcel-resolver-tilde-imports",
+	"version": "1.0.3",
+	"type": "commonjs",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"default": "./src/index.js"
+		}
+	},
+	"engines": {
+		"parcel": "^2.9.3"
+	},
+	"dependencies": {
+		"get-monorepo-root": "^1.0.0",
+		"tilde-imports": "^2.0.0",
+		"@parcel/plugin": "^2.9.3"
+	}
 }
