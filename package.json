@@ -15,5 +15,10 @@
 		"get-monorepo-root": "^1.0.0",
 		"tilde-imports": "^2.0.0",
 		"@parcel/plugin": "^2.9.3"
-	}
+	},
+	"files": [
+		"readme.md",
+		"src",
+		"package.json"
+	]
 }
