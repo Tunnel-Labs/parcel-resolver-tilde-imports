@@ -18,7 +18,7 @@ module.exports = new Resolver({
 
 		const expandedTildeImport = expandTildeImport({
 			importSpecifier: specifier,
-			importerFilePath: dependency.resolveFrom
+			importerFilepath: dependency.resolveFrom
 		});
 
 		return {

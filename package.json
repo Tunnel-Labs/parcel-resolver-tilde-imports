@@ -1,6 +1,6 @@
 {
 	"name": "parcel-resolver-tilde-imports",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"type": "commonjs",
 	"exports": {
 		".": {
@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"get-monorepo-root": "^1.0.0",
-		"tilde-imports": "^2.0.0",
+		"tilde-imports": "^3.0.0",
 		"@parcel/plugin": "^2.9.3"
 	},
 	"files": [
